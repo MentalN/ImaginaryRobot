@@ -10,7 +10,8 @@ public:
     virtual void move();
     void selfDestruct();
 
-private:
+protected:
+    int numRobots;
     bool power;
     int x, y, z;
 
