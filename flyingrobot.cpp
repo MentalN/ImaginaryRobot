@@ -7,3 +7,5 @@ void FlyingRobot::move(int dx, int dy, int dz){
     y += dy;
     z += dz;
 }
+
+FlyingRobot::~FlyingRobot(){}
