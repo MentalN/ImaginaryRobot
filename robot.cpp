@@ -1,9 +1,14 @@
 #include "robot.h"
 #include <iostream>
+using namespace std;
 
 Robot::Robot(){}
 
-Robot::setPower(bool pwr){
+void Robot::move(){
+
+}
+
+void Robot::setPower(bool pwr){
     power = pwr;
 }
 
@@ -20,5 +25,7 @@ bool Robot::operator ==(const Robot& bot){
        this->z == bot.z)
         return true;
     else
-        return false
+        return false;
 }
+
+Robot::~Robot(){}
