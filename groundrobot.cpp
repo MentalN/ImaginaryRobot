@@ -9,6 +9,9 @@ void GroundRobot::move(int dx, int dy){
 }
 
 void GroundRobot::plantMine(){
+    env[x][y] = 1;
+    cout << "Mine planted at (" << x << "," << y << ")!" << endl;
 }
+
 
 GroundRobot::~GroundRobot(){}
