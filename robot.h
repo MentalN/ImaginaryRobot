@@ -10,6 +10,7 @@ public:
     virtual void move();
     void selfDestruct();
     bool operator==(const Robot&);
+    ~Robot();
 
 protected:
     int numRobots;
