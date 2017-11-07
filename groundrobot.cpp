@@ -14,4 +14,4 @@ void GroundRobot::plantMine(){
 }
 
 
-GroundRobot::~GroundRobot(){}
+GroundRobot::~GroundRobot(){numGroundRobots--;}
