@@ -13,5 +13,14 @@ void GroundRobot::plantMine(){
     cout << "Mine planted at (" << x << "," << y << ")!" << endl;
 }
 
+void GroundRobot::plantSuperMine(){
+    for(i = x-1; i < x+1; i++){
+        for(j = y-1; j < j+1; j++){
+            env[i][j]=1;
+        }
+    }
+    cout << "Super mine planted at " << x << "," << y << ")!" << endl;
+}
+
 
 GroundRobot::~GroundRobot(){numGroundRobots--;}
