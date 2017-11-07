@@ -9,6 +9,7 @@ public:
     GroundRobot();
     void move(int, int);
     void plantMine();
+    void plantSuperMine();
     ~GroundRobot();
 
 private:
