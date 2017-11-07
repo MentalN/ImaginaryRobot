@@ -8,3 +8,7 @@ void GroundRobot::move(int dx, int dy){
     z = 0;
 }
 
+void GroundRobot::plantMine(){
+}
+
+GroundRobot::~GroundRobot(){}
