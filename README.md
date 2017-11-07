@@ -1,2 +1,3 @@
 # ImaginaryRobot
-An attempt to code something similar to a robot in term of functions
+Simple cpp robot that does simple stuff using simple classes Edit
+Add topics
