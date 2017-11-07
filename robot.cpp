@@ -7,7 +7,7 @@ Robot::setPower(bool pwr){
     power = pwr;
 }
 
-Robot::selfDestruct(){
+void Robot::selfDestruct(){
     numRobots--;
     cout << "Robot destroyed!" << endl;
     cout << "Number of robots: " << numRobots << endl;
