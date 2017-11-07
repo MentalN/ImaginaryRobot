@@ -8,4 +8,4 @@ void FlyingRobot::move(int dx, int dy, int dz){
     z += dz;
 }
 
-FlyingRobot::~FlyingRobot(){}
+FlyingRobot::~FlyingRobot(){numFlyingRobots--;}
