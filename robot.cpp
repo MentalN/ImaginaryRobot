@@ -14,3 +14,11 @@ Robot::selfDestruct(){
     delete this;
 }
 
+bool Robot::operator ==(const Robot& bot){
+    if(this->x == bot.x &&
+       this->y == bot.y &&
+       this->z == bot.z)
+        return true;
+    else
+        return false
+}
