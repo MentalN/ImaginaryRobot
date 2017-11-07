@@ -9,11 +9,13 @@ public:
     void setPower(bool);
     virtual void move();
     void selfDestruct();
+    bool operator==(const Robot&);
 
 protected:
     int numRobots;
     bool power;
-    int x, y, z;
+    int x, y;
+    unsigned int z;
 
 
 };
