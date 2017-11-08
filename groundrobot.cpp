@@ -14,8 +14,8 @@ void GroundRobot::plantMine(){
 }
 
 void GroundRobot::plantSuperMine(){
-    for(i = x-1; i < x+1; i++){
-        for(j = y-1; j < j+1; j++){
+    for(int i = x-1; i < x+1; i++){
+        for(int j = y-1; j < j+1; j++){
             env[i][j]=1;
         }
     }
